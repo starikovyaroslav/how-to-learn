@@ -70,11 +70,44 @@
   background-color: #2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.description {
+  display: flex;
+  justify-content: center;
 }
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 80%;
+  min-width: 784px;
+  margin: 100px 0 100px 0;
+}
+
+.two-columns__brief {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
