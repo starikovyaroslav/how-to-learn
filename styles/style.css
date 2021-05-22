@@ -165,6 +165,56 @@
   margin-top: 20px;
 }
 
+/* секция feynman */
+.feynman {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 890px;
+
+}
+
+.feynman_main-illustration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+  z-index: 0;
+}
+
+.feynman__title {
+  text-align: center;
+  margin: 0;
+  margin-top: 100px;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
 
 .table__cell_theme_dark {
   width: 200px;
@@ -172,3 +222,5 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+
