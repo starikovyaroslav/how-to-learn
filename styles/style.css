@@ -1,14 +1,11 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* секция header */
 .header {
   display: flex;
   align-items: center;
@@ -17,7 +14,6 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
 }
 
 .logo_place_header {
@@ -70,6 +66,7 @@
   background-color: #2f80ed;
 }
 
+/* секция description */
 .description {
   display: flex;
   justify-content: center;
@@ -94,22 +91,81 @@
   color: #2f80ed;
 }
 
-.two-columns__main-text {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+/* модификатор для верхнего и нижнего отступа между строк */
+.two-columns__paragraph_space {
+  margin: 30px 0;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 30px;
+}
+
+/* секция digits */
+.digits {
+  margin: 100px auto;
+}
+
+.section-title {
+  text-align: center;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.section-subtitle {
+  text-align: center;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px auto 0;
+}
+
+.table {
+  display: flex;
+  width: 1100px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+/* модификатор для верхнего отступа между ячейками */
+.table__cell_space_top {
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* модификатор для верхнего отступа между строк */
+.table__text_space_top {
+  margin-top: 20px;
 }
 
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
