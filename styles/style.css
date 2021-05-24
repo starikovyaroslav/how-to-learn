@@ -143,6 +143,11 @@
   margin: auto;
 }
 
+.list {
+  list-style: none;
+  padding: 0;
+}
+
 .table__cell {
   width: 250px;
 }
