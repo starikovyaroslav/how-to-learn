@@ -2,3 +2,9 @@
   color: white;
   text-decoration: none;
 }
+
+/* Анимация для ссылки при наведении курсора */
+.footer__column-link:hover {
+  opacity: 65%;
+  transition: opacity .3s linear;
+}
