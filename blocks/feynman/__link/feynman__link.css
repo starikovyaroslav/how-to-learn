@@ -7,10 +7,10 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity .3s linear;
 }
 
 /* Анимация для ссылки при наведении курсора */
 .feynman__link:hover {
   opacity: 65%;
-  transition: opacity .3s linear;
 }
